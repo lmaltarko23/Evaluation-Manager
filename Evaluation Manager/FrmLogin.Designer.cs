@@ -41,6 +41,7 @@
             this.txtUsername.Name = "txtUsername";
             this.txtUsername.Size = new System.Drawing.Size(254, 20);
             this.txtUsername.TabIndex = 0;
+            
             // 
             // label1
             // 
@@ -59,6 +60,7 @@
             this.txtPassword.Size = new System.Drawing.Size(254, 20);
             this.txtPassword.TabIndex = 2;
             this.txtPassword.UseSystemPasswordChar = true;
+            
             // 
             // label2
             // 
@@ -78,6 +80,7 @@
             this.btnLogin.TabIndex = 4;
             this.btnLogin.Text = "Prijava";
             this.btnLogin.UseVisualStyleBackColor = true;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // FrmLogin
             // 

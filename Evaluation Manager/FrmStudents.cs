@@ -10,26 +10,11 @@ using System.Windows.Forms;
 
 namespace Evaluation_Manager
 {
-    public partial class FrmLogin : Form
+    public partial class FrmStudents : Form
     {
-        public FrmLogin()
+        public FrmStudents()
         {
             InitializeComponent();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
